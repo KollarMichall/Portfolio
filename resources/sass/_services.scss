@@ -1,0 +1,42 @@
+.services {
+    padding: 3.125rem  0 3.125rem 0 ;
+    h1 {
+        margin-bottom: .9375rem;
+    }
+    .services-box {
+        background: #f9f9f9;
+        padding: .625rem;
+        margin-top: 1.25rem;
+        border-top-right-radius: 3.125rem;
+        border-bottom-left-radius: 3.125rem;
+
+    }
+    .services-box:hover {
+        background: #000;
+        padding: .625rem;
+        color: #fff ;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 3.125rem;
+        border-bottom-right-radius: 3.125rem;
+        transition: 1s ease-in-out;
+
+    }
+    .services-box .fa {
+        margin: 0 .625rem;
+        font-size: 1.25rem;
+    }
+    .services-box span {
+        margin: .1875rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .services-box p {
+        font-size: .9375rem;
+        margin-top: 1.25rem;
+        color: #777;
+    }
+    .services-box p:hover {
+        color: #fff;
+    }
+}

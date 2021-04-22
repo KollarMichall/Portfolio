@@ -1,0 +1,48 @@
+.contact {
+    padding-top: 3.125rem;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../js/img/back..jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+.row {
+    padding: 1.875rem 0 ;
+    font-size: 1.375rem;
+}
+.col-md-4 .fa {
+    padding: .625rem;
+    font-size: 2.5rem;
+
+}
+.btn {
+    padding: .625rem 1.5625rem .625rem 1.5625rem ;
+    margin: .3125rem;
+    border-radius: 1.875rem;
+    border: 2px solid #fff;
+    background: transparent;
+
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+.btn:hover{
+    border: 2px solid #000 !important;
+    background: #000  !important;
+    transition: .6s;
+}
+.btn .fa {
+    margin-right: .625rem;
+}
+.footer {
+    background-color: #000;
+    height: 3.125rem;
+    margin-top: 3.125rem;
+    color: #fff;
+    padding-top: .625rem;
+
+    .fa {
+        color: red;
+    }
+
+}
+}

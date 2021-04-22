@@ -1,0 +1,27 @@
+.social-icons {
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 3rem;
+     
+    ul {
+        padding: initial;
+    }
+    li {
+        height: 2.5rem;
+        width: 2.5rem;
+        list-style: none;
+        padding: .375rem 0 0 .75rem;
+        margin-top: .3125rem;
+        color: #fff;
+        background: #000;
+
+
+    }
+    li:hover {
+        padding-left: 2rem;
+        width: 5rem;
+        transition: .5s;
+    }
+}

@@ -1,0 +1,59 @@
+.header{
+    $border-color: aliceblue;
+
+    #header {
+        height: 100vh;
+        background-image: url(../js/img/background.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed ;
+    }
+    .user-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      
+        
+    }
+    .user-box img {
+        border-radius: 50%;
+        width: 15.625rem;
+        border: solid 2px $border-color;
+    }
+    .user-box h1 {
+        color: $border-color;
+        font-weight: bold;
+        margin: 0.625rem;
+
+    }
+    .user-box p {
+        color: $border-color;
+    }
+    .scroll-btn {
+        position: absolute;
+        bottom: 1.875rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border: solid 2px $border-color;
+        padding: .625rem .625rem 1.25rem;
+        border-radius: 1.875rem;
+    }
+    .scroll-bar span {
+        border: solid 2px $border-color;
+        font-size: .625rem;
+        border-radius: 1.875rem;
+    }
+    .scroll-bar {
+        animation: mover 1s infinite alternate;
+    }
+    @keyframes mover {
+        0%{
+            transform: translateY(- .255rem);
+        }
+        100%{
+            transform: translateY(.625rem);
+        }
+        
+    }
+}
